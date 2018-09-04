@@ -68,7 +68,7 @@
   </header>
 
   <!-- Services -->
-  <section id="services">
+  <!-- <section id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -83,8 +83,8 @@
             <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
-            magni, dicta impedit.</p>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+            inventore harum ex magni, dicta impedit.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -92,8 +92,8 @@
             <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
-            magni, dicta impedit.</p>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+            inventore harum ex magni, dicta impedit.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -101,12 +101,12 @@
             <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
-            magni, dicta impedit.</p>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+            inventore harum ex magni, dicta impedit.</p>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Portfolio Grid -->
   <section class="bg-light" id="portfolio">
@@ -119,6 +119,20 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/worthIt.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Project 2</h4>
+            <p class="text-muted">WorthIt?</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -130,6 +144,20 @@
           <div class="portfolio-caption">
             <h4>Project 1</h4>
             <p class="text-muted">Total Travel</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/friendFinder.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Sequelize and Heroku</h4>
+            <p class="text-muted">Friend Finder</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -188,20 +216,7 @@
             <p class="text-muted">Parks and Recreation Hangman</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/liri.png" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Node.js</h4>
-            <p class="text-muted">Liri Bot</p>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>
@@ -512,12 +527,18 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Node.js Bot Application</h2>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/liri.png" alt="">
-                <p>Node.js bot that takes in certain arguments, and returns relevant info from an API.</p>
+                <h2 class="text-uppercase">WorthIt?</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/worthIt.png" alt="">
+                <p>
+                  Ever been super excited to see a critically acclaimed movie and been disappointed? Ever been told a movie wasn't worth seeing
+                  by the critics only for it become one of your all time favorites? Introducing WorthIt! This application
+                  compares critic ratings to general audience ratings to determine whether a movie meets its expectations.</p>
                 <ul class="list-inline">
                   <li>
-                    <a href="https://github.com/lcondon/liri-node-app/" target="_blank">Github Repository</a>
+                    <a href="https://radiant-anchorage-14785.herokuapp.com/" target="_blank">Live Website</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/lcondon/worthit" target="_blank">Github Repository</a>
                   </li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -530,6 +551,42 @@
       </div>
     </div>
   </div>
+
+    <!-- Modal 7 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Friend Finder</h2>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/map5.png" alt="">
+                  <p>Web application that matches users with their most compatible new friend usings results from a survey. Deployed on Heroku. Sequelize ORM used for database manipulation.</p>
+                  <ul class="list-inline">
+                    <li>
+                      <a href="https://glacial-ridge-62062.herokuapp.com/" target="_blank">Live Website</a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/lcondon/friendFinder" target="_blank">Github Repository</a>
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
